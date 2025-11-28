@@ -1,4 +1,4 @@
--- Arthur Coronho Seabra Eiras, Lucas Araújo Campos Szuster, Murillo Kelvin
+-- Arthur Coronho Seabra Eiras, Lucas Araújo Campos Szuster, Murillo Kelvin - Turma PN5
 -- Código do professor Marconi
 library IEEE;
 use IEEE.std_logic_1164.all;
