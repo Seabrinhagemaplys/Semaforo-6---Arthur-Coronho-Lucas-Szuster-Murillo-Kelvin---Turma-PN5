@@ -5,7 +5,7 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity top_level is
     port(
-        CLOCK_50   : in  std_logic;   -- Clock da placa DE2 (27 MHz)
+        CLOCK_50   : in  std_logic;   -- Clock da placa DE2 (50 MHz)
         KEY        : in  std_logic_vector(3 downto 0); -- Botões
         SW         : in  std_logic_vector(9 downto 0); -- Chaves
         LEDR       : out std_logic_vector(17 downto 0); -- LEDs vermelhos
