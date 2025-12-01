@@ -30,7 +30,7 @@ architecture con of controladora is
     type estado is (
         ESTADO_SINAL_VERMELHO,
         ESTADO_SINAL_AMARELO,
-	     ESTADO_SINAL_VERDE,
+	    ESTADO_SINAL_VERDE,
         ESTADO_RESETAR_SINAL_VERDE,
         ESTADO_RESETAR_SINAL_VERMELHO,
         ESTADO_NIGHT
@@ -53,7 +53,7 @@ begin
 
     -- Definir as saídas com base no estado atual e calcular próximo estado
 	process(clk, reset)
-   begin
+   	begin
 		case estado_atual is
 			when ESTADO_SINAL_VERMELHO =>
 				sinal_verde    <= '0';
