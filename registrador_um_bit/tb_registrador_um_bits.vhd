@@ -2,10 +2,10 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
 
-entity tb_registrador_n_bits is
+entity tb_registrador_um_bits is
 end entity;
 
-architecture sim of tb_registrador_n_bits is
+architecture sim of tb_registrador_um_bits is
     signal clk : std_logic := '1';
     signal clk_enable : std_logic := '1';
     signal I : std_logic;
