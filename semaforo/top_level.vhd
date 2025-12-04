@@ -87,9 +87,6 @@ architecture RTL of top_level is
 	end component;
 	
 begin
-	-- clk
-	LEDR(17) <= clk;
-	
 	-- reset
 	reset_n <= SW(6);
 	
